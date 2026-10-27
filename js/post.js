@@ -9,7 +9,7 @@ const apiUrl = "https://api-ds.codeverse.dev.br/api/series";
 
 form.addEventListener("submit", async function (event) {
   
-
+event.preventDefault();
 
   const dados =  new FormData(form);
 
