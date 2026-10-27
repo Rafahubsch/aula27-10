@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de series</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/post.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>📺Cadastro de séries📺</h1>
+      <p>Preencha os dados abaixo!!! </p>
+    </header>
+    <main>
+      <section>
+        <h2>Nova série🎞️</h2>
+
+        <form id="form-serie">
+          <label for="title">Nome da série: </label>
+          <input id="title" name="title" type="text" minlength="3" maxlength="120" required />
+
+          <label for="genero">Gênero principal da série:: </label>
+          <input id="genero" name="genero" type="text" required />
+
+          <label for="numero_temporadas">Quantidade de temporadas: </label>
+          <input id="numero_temporadas" name="numero_temporadas" type="number" required/>
+
+          <label for="ano_lancamento">Ano de lançamento da série: </label>
+          <input id="ano_lancamento" name="ano_lancamento" type="number" required/>
+
+           <label for="plataforma">Plataforma onde a série está disponível: </label>
+          <input id="plataforma" name="plataforma" type="text" required />
+
+          <label for="imageUrl">URL da imagem (opcional): </label>
+          <input id="imageUrl" name="imageUrl" type="url" />
+
+          <button type="submit">Cadastrar série↙️</button>
+        </form>
+
+        <p id="resposta"></p>
+      </section>
+    </main>
+  </body>
+</html>
