@@ -23,7 +23,7 @@ form.addEventListener("submit", async function (event) {
       imageUrl: dados.get("imageUrl") || null
   }
 
-  resposta.textContent = "Enviando heroi para a API....";
+  resposta.textContent = "Enviando série para API";
 
 
 try {
