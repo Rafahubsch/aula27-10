@@ -37,7 +37,7 @@ try {
 
 
 
-    body: JSON.stringify(heroi),
+    body: JSON.stringify(serie),
   });
 
   const texto = await respostaApi.text();
