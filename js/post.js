@@ -14,7 +14,7 @@ event.preventDefault();
   const dados =  new FormData(form);
 
 
-  const heroi = {
+  const serie = {
       title: dados.get("title"),
       genero: dados.get("genero"),
       numero_temporadas: dados.get("numero_temporadas"),
